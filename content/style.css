@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: #2C2F33;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-size: cover;
+}
+canvas{
+    z-index: -1;
+}
+.left-corner{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    
+}
+.left-corner h1{
+    color: rgb(82, 82, 82);
+    font-size: 8px;
+}
+.centered{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+form{
+    background: #36393F;
+    padding: 50px 100px;
+    border-radius: 10px;
+}
+form h1{
+    color: #898D92;
+    text-align: left;
+    font-size: 12px;
+    margin: 0 0 5px 0;
+}
+.input-box{
+    margin: 0 0 10px 0;
+}
+.input-box input{
+    background: #303339;
+    color: whitesmoke;
+    border: 1px solid #303339;
+    padding: 5px;
+    border-radius: 3px;
+    font-size: 12px;
+    width: 250px;
+    height: 15px;
+    transition: 0.25s;
+}
+.input-box input:hover{
+    border: 1px solid black;
+    transition: 0.25s;
+}
+.check-box{
+    display: flex;
+    margin: 10px 0;
+    justify-content: center;
+}
+.check-box h2{
+    color: #898D92;
+    text-align: left;
+    font-size: 12px;
+    margin: 0 0 0 5px;
+}
+.check-box input{
+    margin: auto 0;
+}
+.submit-box button{
+    display: block;
+    margin: 10px auto 0 auto;
+    padding: 5px;
+    width: 250px;
+    height: 35px;
+    font-size: 14px;
+    font-weight: 600;
+    background: #7289DA;
+    color: whitesmoke;
+    transition: 0.25s;
+    border: none;
+    border-radius: 3px;
+}
+.submit-box button:hover{
+    background: #677BC4;
+    transition: 0.25s;
+}

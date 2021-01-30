@@ -1,0 +1,22 @@
+{
+  "name": "BetterCustomPresence",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "build": {
+    "appId": "BetterCustomPresence",
+    "win": {
+      "target": ["nsis"]
+    }
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord-rich-presence": "0.0.8",
+    "express": "^4.17.1"
+  }
+}
